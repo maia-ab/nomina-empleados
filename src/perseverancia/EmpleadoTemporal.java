@@ -8,10 +8,9 @@ public class EmpleadoTemporal extends Empleado{
 		super.hijos = hijos;
 		super.sueldoPorHora = 2000;
 	}
-	
 	@Override
-	public int verSueldo() {
-		return horasTrabajadas * 2000 + super.salarioFamiliar();
+	public int verSueldo(){
+		 return salarioFamiliar() + horasTrabajadas*sueldoPorHora;
 	}
-
+	
 }
