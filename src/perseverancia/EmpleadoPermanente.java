@@ -1,8 +1,8 @@
 package perseverancia;
 
 public class EmpleadoPermanente extends Empleado{
-	int antiguedad;
-	int sueldoPorAntiguedad = 1000;
+	protected int antiguedad;
+	protected int sueldoPorAntiguedad = 1000;
 
 	public EmpleadoPermanente(int horas, Boolean esposa, int hijos, int antiguedad) {
 		super.horasTrabajadas = horas;

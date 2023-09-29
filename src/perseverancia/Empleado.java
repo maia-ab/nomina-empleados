@@ -1,10 +1,10 @@
 package perseverancia;
 
 abstract public class Empleado {
-	int horasTrabajadas;
-	Boolean esposa;
-	int hijos;
-	int sueldoPorHora;
+	protected int horasTrabajadas;
+	protected Boolean esposa;
+	protected int hijos;
+	protected int sueldoPorHora;
 	
 	public int salarioFamiliar() {
 		int salida = hijos*2000;
